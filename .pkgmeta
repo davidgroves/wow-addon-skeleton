@@ -1,0 +1,11 @@
+---
+package-as: REPLACEME_WTTH_ADDON_NAME
+enable-nolib-creation: no
+externals:
+    Libs/LibStub:
+        url: svn://svn.wowace.com/wow/libstub/mainline/tags/1.0
+        tag: 1.0
+    
+ignore:
+    - libs/LibStub/tests
+    - libs/LibStub/LibStub.toc
