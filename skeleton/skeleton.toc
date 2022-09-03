@@ -1,0 +1,7 @@
+## Interface: INTERFACE_VERSION_GOES_HERE
+## Title: ADDON_NAME_GOES_HERE
+## Notes: ADDON_DESCRIPTION_GOES_HERE
+## Version: 0.0.1
+
+skeleton.lua
+
