@@ -1,5 +1,6 @@
 ---
 package-as: REPLACEME_WTTH_ADDON_NAME
+releasedir: /mnt/c/games/World of Warcraft/_classic_/Interface/AddOns/Autojoke
 enable-nolib-creation: no
 externals:
     Libs/LibStub:
