@@ -81,7 +81,7 @@ echo "GITHUB_OAUTH=XXXXXXX" >> .env
 
 ### Handy one hit "deploy" button.
 
-Check the parameters, but this is usually what you want.
+Check the parameters, but this is usually what you want when developing locally and pushing updates into the game to test.
 
 ```
 ./release.sh -e -d -o -r /mnt/c/path/to/wow/addons/directory
