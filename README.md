@@ -36,7 +36,6 @@ This project is an attempt to consolidate this for other developers to reduce th
     - Inside the Ubuntu VM, do `sudo apt install jq pandoc` to install the jq tool needed to upload, and the pandoc tool so markdown is supported.
 3. Install the [WoW TOC plugin](https://marketplace.visualstudio.com/items?itemName=stanzilla.vscode-wow-toc), to colourise wow .toc files.
 4. Install the [LuaFormatter plugin](https://marketplace.visualstudio.com/items?itemName=Koihik.vscode-lua-format) for vscode.
-5. 
 
 
 # Making a new WoW addon.
@@ -57,7 +56,7 @@ This project is an attempt to consolidate this for other developers to reduce th
     - You get your WOWI token from [The WoWInterface Control Panel](https://www.wowinterface.com/downloads/filecpl.php?action=apitokens).
     - You get your WAGO token from the [Wago Account Page](https://addons.wago.io/account/apikeys)
     - You get your github OAUTH token from [Github Personal Access Tokens](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token)
-- Manually make your first release, without uploading using `./release -d -r $PATH_TO_WOW_ADDON_DIRECTORY`. Note this is the path, as seen by the WSL environment, and so will most likely be `/mnt/c/PATH/TO/WOW/ADDONS/INTERFACE`
+- Manually make your first release, without uploading using `./release -d -r $PATH_TO_WOW_ADDON_DIRECTORY`. Note this is the path, as seen by the WSL environment, and so will most likely be `/mnt/c/PATH/TO/WOW/INTERFACE`
 
 
 ### Full example
