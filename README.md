@@ -15,7 +15,7 @@ This project is an attempt to consolidate this for other developers to reduce th
 
 # Assumptions.
 
-- You are developing on Windows 10.
+- You are developing on Windows 10 or 11.
 - You have a copy of WoW on that Windows PC, that you intend to use for development.
 - You have a working [WSL2 - Windows Subsystem for Linux 2](https://docs.microsoft.com/en-us/windows/wsl/install) install on your PC, or are willing to install it with Ubuntu 20.04.
 - You will use [VScode](https://code.visualstudio.com/) as your editor.
@@ -80,4 +80,10 @@ echo "GITHUB_OAUTH=XXXXXXX" >> .env
 ./release -d
 ```
 
- In Powershell.
+### Handy one hit "deploy" button.
+
+Check the parameters, but this is usually what you want.
+
+```
+./release.sh -e -d -o -r /mnt/c/path/to/wow/addons/directory
+```
